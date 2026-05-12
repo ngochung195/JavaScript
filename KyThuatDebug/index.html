@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Thực hành Debug</title>
+</head>
+
+<body>
+    <h2>Máy tính tiền Giỏ hàng</h2>
+    <p>Giá áo: 100k</p>
+    <p>Giá quần: <input type="text" id="pants-price" value="200" readonly>k</p>
+
+    <button id="calc-btn">Tính Tổng Tiền</button>
+    <h3 id="result">Tổng tiền: 0k</h3>
+
+    <script>
+        const calcBtn = document.getElementById('calc-btn');
+        const resultText = document.getElementById('result');
+
+        calcBtn.addEventListener('click', function () {
+            const shirtPrice = 100;
+
+            // Lấy giá trị từ ô input HTML (Nơi sinh ra Lỗi Logic)
+            const pantsPrice = document.getElementById('pants-price').value;
+
+            // Phép tính bị sai lệch do cộng Số với Chữ
+            const total = shirtPrice + Number(pantsPrice);
+
+            // Hiển thị lên màn hình (Khách hàng sẽ thấy 100200k)
+            resultText.innerText = `Tổng tiền: ${total}k`;
+
+            // THÁM TỬ VÀO CUỘC: Đặt máy X-quang soi chiếu dữ liệu
+            console.log("--- Bắt đầu tính tiền ---");
+            console.log("Kiểu dữ liệu của áo:", typeof shirtPrice, shirtPrice);
+            console.log("Kiểu dữ liệu của quần:", typeof pantsPrice, pantsPrice);
+        });
+    </script>
+</body>
+
+</html>

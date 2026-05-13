@@ -1,0 +1,55 @@
+=== BẮT ĐẦU XỬ LÝ DỮ LIỆU ===
+weather_dashboard.js:59 Cảm biến S1: Nhiệt độ là 32.5°C
+weather_dashboard.js:71 Đã quét qua cảm biến S1
+(anonymous) @ weather_dashboard.js:71
+processWeatherData @ weather_dashboard.js:22
+(anonymous) @ weather_dashboard.js:80
+weather_dashboard.js:65 Lỗi tại cảm biến S2: Nhiệt độ bị null hoặc undefined
+(anonymous) @ weather_dashboard.js:65
+processWeatherData @ weather_dashboard.js:22
+(anonymous) @ weather_dashboard.js:80
+weather_dashboard.js:71 Đã quét qua cảm biến S2
+(anonymous) @ weather_dashboard.js:71
+processWeatherData @ weather_dashboard.js:22
+(anonymous) @ weather_dashboard.js:80
+weather_dashboard.js:59 Cảm biến S3: Nhiệt độ là 35.1°C
+weather_dashboard.js:71 Đã quét qua cảm biến S3
+(anonymous) @ weather_dashboard.js:71
+processWeatherData @ weather_dashboard.js:22
+(anonymous) @ weather_dashboard.js:80
+weather_dashboard.js:59 Cảm biến S4: Nhiệt độ là 40.2°C
+weather_dashboard.js:71 Đã quét qua cảm biến S4
+(anonymous) @ weather_dashboard.js:71
+processWeatherData @ weather_dashboard.js:22
+(anonymous) @ weather_dashboard.js:80
+weather_dashboard.js:65 Lỗi tại cảm biến UNKNOWN: Dữ liệu không phải object hợp lệ
+(anonymous) @ weather_dashboard.js:65
+processWeatherData @ weather_dashboard.js:22
+(anonymous) @ weather_dashboard.js:80
+weather_dashboard.js:71 Đã quét qua cảm biến UNKNOWN
+(anonymous) @ weather_dashboard.js:71
+processWeatherData @ weather_dashboard.js:22
+(anonymous) @ weather_dashboard.js:80
+weather_dashboard.js:59 Cảm biến S5: Nhiệt độ là 28.0°C
+weather_dashboard.js:71 Đã quét qua cảm biến S5
+(anonymous) @ weather_dashboard.js:71
+processWeatherData @ weather_dashboard.js:22
+(anonymous) @ weather_dashboard.js:80
+weather_dashboard.js:65 Lỗi tại cảm biến S6: Dữ liệu nhiệt độ bất thường
+(anonymous) @ weather_dashboard.js:65
+processWeatherData @ weather_dashboard.js:22
+(anonymous) @ weather_dashboard.js:80
+weather_dashboard.js:71 Đã quét qua cảm biến S6
+(anonymous) @ weather_dashboard.js:71
+processWeatherData @ weather_dashboard.js:22
+(anonymous) @ weather_dashboard.js:80
+weather_dashboard.js:65 Lỗi tại cảm biến S7: Nhiệt độ không phải number
+(anonymous) @ weather_dashboard.js:65
+processWeatherData @ weather_dashboard.js:22
+(anonymous) @ weather_dashboard.js:80
+weather_dashboard.js:71 Đã quét qua cảm biến S7
+(anonymous) @ weather_dashboard.js:71
+processWeatherData @ weather_dashboard.js:22
+(anonymous) @ weather_dashboard.js:80
+weather_dashboard.js:77 
+=== HOÀN THÀNH XỬ LÝ DỮ LIỆU ===

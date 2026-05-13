@@ -1,0 +1,1 @@
+Prompt 1: Kiểm tra giúp tôi mã giả của tôi đã đạt yêu cầu hệ thống chưa?Có cần tối ưu hay sửa chỗ nào không?

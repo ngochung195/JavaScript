@@ -1,0 +1,1 @@
+Prompt 1: Tôi nên gắn sự kiện addEventListener('click') lên từng máy bay (object) hay gắn lên toàn bộ thẻ Canvas rồi tính toán tọa độ? Phân tích ưu/nhược điểm.

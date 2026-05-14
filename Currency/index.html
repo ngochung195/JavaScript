@@ -1,0 +1,69 @@
+<style>
+    form {
+        display: flex;
+    }
+
+    div {
+        padding-right: 20px;
+    }
+
+    label {
+        display: inline-block;
+        text-align: center;
+        width: 200px;
+    }
+
+    input[type="number"],
+    select {
+        width: 200px;
+        padding: 8px;
+    }
+
+    input[type="submit"] {
+        background-color: rgb(138, 66, 205);
+        color: #f5f5f5;
+        border-color: rgb(60, 60, 247);
+        width: 100px;
+        padding: 8px;
+    }
+
+    p {
+        color: blue;
+    }
+</style>
+
+<body>
+    <h2>Hệ thống chuyển đổi tiền tệ</h2>
+
+    <form id="converterForm">
+        <div>
+            <label>Amount</label>
+            <br>
+            <input type="number" id="amount" required>
+        </div>
+        <div>
+            <label>From Currency</label>
+            <br>
+            <select id="fromCurrency">
+                <option>VND</option>
+                <option>USD</option>
+            </select>
+        </div>
+        <div>
+            <label>To Currency</label>
+            <br>
+            <select id="toCurrency">
+                <option>USD</option>
+                <option>VND</option>
+            </select>
+        </div>
+        <div>
+            <br>
+            <input type="submit" value="Convert">
+        </div>
+    </form>
+
+    <p id="result"></p>
+
+    <script src="app.js"></script>
+</body>

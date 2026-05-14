@@ -1,0 +1,1 @@
+Prompt 1: Hãy tạo ra 5 bộ dữ liệu đầu vào chứa các con số lẻ thập phân, hoặc số âm để tôi kiểm tra xem công thức tính toán của mình có bị lỗi hay không.

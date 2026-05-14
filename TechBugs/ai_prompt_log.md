@@ -1,0 +1,1 @@
+Prompt 1: Hãy đóng vai một Hacker. Sinh cho tôi 5 bộ dữ liệu đầu vào (Edge cases) bất thường nhất (ví dụ: null, undefined, NaN...) để cố tình vượt qua lớp bảo mật === của tôi.
